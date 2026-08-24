@@ -154,7 +154,19 @@ body {
 .download-button.primary:active {
     background-color: #333;
 }
+.download-button.tertiary {
+    background-color: transparent;
+    border: 1px solid #c2c1ba;
+    color: #333;
+}
 
+.download-button.tertiary:hover {
+    background-color: #dbdbd7;
+}
+
+.download-button.tertiary:active {
+    background-color: #c2c1ba;
+}
 /* ── Dev label ─────────────────────────────────────────────────────────── */
 /* Fixed badge at top center — identifies this as the HTML version */
 .page-label {
